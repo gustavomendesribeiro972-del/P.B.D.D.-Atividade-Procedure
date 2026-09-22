@@ -17,12 +17,12 @@
 
 ## Mapeamento das questões:
 
-#### Organizei as questões dentro dos arquivos 'DDL' e 'DML & DQL':
-#### DDL (Tabelas):
+#### Organizei as questões dentro dos arquivos 'Tabelas' e 'Procedures':
+#### Tabelas:
 - Q.01: Criação da Tabela 'hospedes' com a inserção dos seus valores;
 - Q.02: Criação da Tabela 'reservas' com a inserção dos seus valores.
 
-#### DML & DQL (Questões de Procedure) :
+#### Questões de Procedure :
 - N.01: 'CREATE OR REPLACE PROCEDURE cadastrar_hospede (...'
 - N.02: 'CREATE OR REPLACE PROCEDURE atualizar_telefone_hospede(...'
 - N.03: 'CREATE OR REPLACE PROCEDURE consultar_hospede(...'
@@ -44,7 +44,7 @@
 
 | Conceito | Status | Onde foi utilizado no código SQL |
 | :--- | :---: | :--- |
-| **CREATE PROCEDURE** | [✔] | Utilizei na criação ou substituição de todas as procedures no arquivo DML & DQL: (ex.: `CREATE OR REPLACE PROCEDURE cadastrar_hospede(...)`). |
+| **CREATE PROCEDURE** | [✔] | Utilizei na criação ou substituição de todas as procedures no arquivo das Procedures: (ex.: `CREATE OR REPLACE PROCEDURE cadastrar_hospede(...)`). |
 | **CALL** | [✔] | Presente nas instruções de teste e execução das procedures (ex.: `CALL cadastrar_hospede(...)`). |
 | **Parâmetros** | [✔] | Utilizados nas assinaturas de quase todas as procedures com o prefixo `p_` (ex.: `p_id_hospede INT`, `p_novo_valor NUMERIC`). |
 | **DECLARE** | [✔] | Utilizado do Nível 2 em diante para abrir o bloco de declaração de variáveis internas (ex.: **Q3 a Q15**). |
