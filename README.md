@@ -23,10 +23,18 @@
 - Q.02: Criação da Tabela 'reservas' com a inserção dos seus valores.
 
 #### DML & DQL :
-- N.01:
-- N.02:
-- N.03:
-- N.04:
-- N.05:
-- N.06:
-- N.07:
+- N.01: 'CREATE OR REPLACE PROCEDURE cadastrar_hospede (...'
+- N.02: 'CREATE OR REPLACE PROCEDURE atualizar_telefone_hospede(...'
+- N.03: 'CREATE OR REPLACE PROCEDURE consultar_hospede(...'
+- N.04: Modificação da procedure anterior: 'CREATE OR REPLACE PROCEDURE consultar_hospede(...'
+- N.05: 'CREATE OR REPLACE PROCEDURE criar_reserva(...'
+- N.06: Modificaçã da procedure anterior, para validar o hospede: 'CREATE OR REPLACE PROCEDURE criar_reserva(...'
+- N.07: 'CREATE OR REPLACE PROCEDURE criar_reserva(...'
+- N.08: 'CREATE OR REPLACE PROCEDURE cancelar_reserva(...'
+- N.09: Modificação da procedure anterior, para impedir o cancelamento de uma reserva já cancelada: 'CREATE OR REPLACE PROCEDURE cancelar_reserva(...'
+- N.10: 'CREATE OR REPLACE PROCEDURE calcular_valor_reserva(...'
+- N.11: 'CREATE OR REPLACE PROCEDURE calcular_valor_com_desconto(...'
+- N.12: 'CREATE OR REPLACE PROCEDURE finalizar_reserva(...'
+- N.13: 'CREATE OR REPLACE PROCEDURE alterar_valor_diaria(...'
+- N.14: 'CREATE OR REPLACE PROCEDURE reabrir_reserva(...'
+- N.15: 'CREATE OR REPLACE PROCEDURE confirmar_reserva(...'
